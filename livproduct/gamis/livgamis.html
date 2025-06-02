@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pencarian Jubah</title>
+    <link rel="stylesheet" href="css/livgamis.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Cari Gamis...">
+            <button onclick="searchProducts()" aria-label="Cari" style="background:none;border:none;cursor:pointer;padding:0 10px;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                    <circle cx="11" cy="11" r="7" stroke="#00796b" stroke-width="2"/>
+                    <line x1="16.018" y1="16.4853" x2="21" y2="21.4673" stroke="#00796b" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="products" id="productList">
+            <!-- Produk akan ditampilkan di sini -->
+        </div>
+    </div>
+    <script src="js/livgamis.js"></script>
+</body>
+</html>
